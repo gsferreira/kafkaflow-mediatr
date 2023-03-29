@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13590D2C-6966-4E19-8898-66D2F2A761BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A05CEC9-09DA-4798-9CFC-884EC000C590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR.Tests", "tests\KafkaFlow.MediatR.Tests\KafkaFlow.MediatR.Tests.csproj", "{FE00C093-C3B7-4072-B32C-9902EDB51A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR", "src\KafkaFlow.MediatR\KafkaFlow.MediatR.csproj", "{FA762CC7-C661-4435-98EE-F4BF5144DCDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE00C093-C3B7-4072-B32C-9902EDB51A1B} = {2A05CEC9-09DA-4798-9CFC-884EC000C590}
+		{FA762CC7-C661-4435-98EE-F4BF5144DCDE} = {13590D2C-6966-4E19-8898-66D2F2A761BA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE00C093-C3B7-4072-B32C-9902EDB51A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE00C093-C3B7-4072-B32C-9902EDB51A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE00C093-C3B7-4072-B32C-9902EDB51A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE00C093-C3B7-4072-B32C-9902EDB51A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
