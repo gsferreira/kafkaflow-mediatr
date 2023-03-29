@@ -15,13 +15,13 @@
         <RepositoryType>git</RepositoryType>
         <license>https://github.com/gsferreira/kafkaflow-mediatr/blob/master/LICENSE</license>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageIconUrl>https://raw.githubusercontent.com/Farfetch/.github/master/images/fuse-logo-128.png</PackageIconUrl>
+        <PackageIcon>https://raw.githubusercontent.com/Farfetch/.github/master/images/fuse-logo-128.png</PackageIcon>
         <PackageTags>kafkaflow;kafka</PackageTags>
     </PropertyGroup>
-
+    
     <ItemGroup>
-        <PackageReference Include="KafkaFlow" Version="2.2.15"/>
-        <PackageReference Include="MediatR" Version="12.0.1"/>
+        <PackageReference Include="KafkaFlow" Version="2.2.15" />
+        <PackageReference Include="MediatR" Version="12.0.1" />
     </ItemGroup>
 
 </Project>
