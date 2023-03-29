@@ -1,9 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>gsferreira.KafkaFlow.MediatR</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Guilherme Ferreira</Authors>
+        <PackageDescription>An Extension to KafkaFlow that adds MediatR as a Middleware.</PackageDescription>
+        <RepositoryUrl>https://github.com/gsferreira/kafkaflow-mediatr</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <license>https://github.com/gsferreira/kafkaflow-mediatr/blob/master/LICENSE</license>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIconUrl>https://raw.githubusercontent.com/Farfetch/.github/master/images/fuse-logo-128.png</PackageIconUrl>
+        <PackageTags>kafkaflow;kafka</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
