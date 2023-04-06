@@ -16,7 +16,8 @@
         <license>https://github.com/gsferreira/kafkaflow-mediatr/blob/master/LICENSE</license>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageIconUrl>https://raw.githubusercontent.com/Farfetch/.github/master/images/fuse-logo-128.png</PackageIconUrl>
-        <PackageTags>kafkaflow;kafka</PackageTags>
+        <PackageTags>kafkaflow;kafka;mediatr;mediator</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
     
     <ItemGroup>
@@ -31,5 +32,9 @@
     <PropertyGroup>
         <MinVerMinimumMajorMinor>1.0</MinVerMinimumMajorMinor>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
