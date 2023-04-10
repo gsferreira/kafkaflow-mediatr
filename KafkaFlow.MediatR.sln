@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR", "src\KafkaFlow.MediatR\KafkaFlow.MediatR.csproj", "{FA762CC7-C661-4435-98EE-F4BF5144DCDE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C1C18168-932F-452E-BF7E-1C7AAC9B8390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR.Samples.Notifications", "samples\KafkaFlow.MediatR.Samples.Notifications\KafkaFlow.MediatR.Samples.Notifications.csproj", "{E9B5C9F7-7D80-460D-A857-969ADB265A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaFlow.MediatR.Samples.Requests", "samples\KafkaFlow.MediatR.Samples.Requests\KafkaFlow.MediatR.Samples.Requests.csproj", "{8A72396D-8480-4852-B4BE-CA1527EC396A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +22,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FE00C093-C3B7-4072-B32C-9902EDB51A1B} = {2A05CEC9-09DA-4798-9CFC-884EC000C590}
 		{FA762CC7-C661-4435-98EE-F4BF5144DCDE} = {13590D2C-6966-4E19-8898-66D2F2A761BA}
+		{E9B5C9F7-7D80-460D-A857-969ADB265A53} = {C1C18168-932F-452E-BF7E-1C7AAC9B8390}
+		{8A72396D-8480-4852-B4BE-CA1527EC396A} = {C1C18168-932F-452E-BF7E-1C7AAC9B8390}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FE00C093-C3B7-4072-B32C-9902EDB51A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +34,13 @@ Global
 		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA762CC7-C661-4435-98EE-F4BF5144DCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B5C9F7-7D80-460D-A857-969ADB265A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B5C9F7-7D80-460D-A857-969ADB265A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B5C9F7-7D80-460D-A857-969ADB265A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B5C9F7-7D80-460D-A857-969ADB265A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A72396D-8480-4852-B4BE-CA1527EC396A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A72396D-8480-4852-B4BE-CA1527EC396A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A72396D-8480-4852-B4BE-CA1527EC396A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A72396D-8480-4852-B4BE-CA1527EC396A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -31,7 +31,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Pack
-      run: dotnet pack ./KafkaFlow.MediatR.sln -c Release -o ./drop
+      run: dotnet pack ./src/KafkaFlow.MediatR/KafkaFlow.MediatR.csproj -c Release -o ./drop
     - name: Publish
       run: dotnet nuget push ./drop/**/*.nupkg -k ${{ secrets.NUGET_PUBLISH_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
 
