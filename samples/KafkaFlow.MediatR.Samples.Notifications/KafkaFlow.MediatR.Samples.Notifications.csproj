@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="KafkaFlow" Version="2.2.15" />
+        <PackageReference Include="KafkaFlow.LogHandler.Console" Version="2.2.15" />
+        <PackageReference Include="KafkaFlow.Microsoft.DependencyInjection" Version="2.2.15" />
+        <PackageReference Include="KafkaFlow.Serializer" Version="2.2.15" />
+        <PackageReference Include="KafkaFlow.Serializer.JsonCore" Version="2.2.15" />
+        <PackageReference Include="KafkaFlow.TypedHandler" Version="2.2.15" />
+        <PackageReference Include="MediatR" Version="12.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\KafkaFlow.MediatR\KafkaFlow.MediatR.csproj" />
+    </ItemGroup>
+
+</Project>
