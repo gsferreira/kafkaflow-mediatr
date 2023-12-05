@@ -3,6 +3,7 @@ name: publish
 on:
   push:
     branches: [ "main" ]
+    tags: ["*.*.*"]
   pull_request:
     branches: [ "main" ]
   release:
@@ -13,8 +14,6 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    env:
-      BUILD_VERSION: ${{ github.event.release.tag_name }}
 
     steps:
     - uses: actions/checkout@v4
