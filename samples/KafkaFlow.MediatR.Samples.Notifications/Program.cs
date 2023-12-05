@@ -27,7 +27,7 @@ services.AddKafka(kafka => kafka
             .WithBufferSize(100)
             .WithWorkersCount(10)
             .AddMiddlewares(middlewares => middlewares
-                .AddSerializer<JsonCoreSerializer>()
+                .AddDeserializer<JsonCoreDeserializer>()
                 .AddMediatorNotifications(MiddlewareLifetime.Transient)
             )
         )
