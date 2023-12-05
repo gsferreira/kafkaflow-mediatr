@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -15,9 +17,10 @@ jobs:
       BUILD_VERSION: ${{ github.event.release.tag_name }}
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
-        fetch-depth: 0 
+        fetch-depth: 0
+        filter: tree:0 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
